@@ -68,17 +68,19 @@ nav .header ul li a{
 
 .box{
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.1;
     position: absolute;
     top:0%;
     width:100%;
-    height: 450px;
+    height: 480px;
 }
 
 nav img{
     margin-left: 100px;
     margin-top: 50px;
     border-radius: 50px;
+    position: relative;
+    z-index: 10;
 }
 
 .dropdownbtn:hover{
@@ -93,10 +95,12 @@ nav img{
 }
 
 h1{
-    color: #2c6e91;
+    color: #005f73;
     font-size: 43px;
     font-family: Poppins;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
 }
 
 .slogan{
@@ -106,7 +110,110 @@ h1{
     align-items: center;
     text-align: center;
 }
-h2{
+
+#SecondMainLine{
     color:#f5e4c3;
     font-family: poppins;
+    font-size: 28px;
+}
+
+#lowerofimage{
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    position: relative;
+   top: 450px;
+   left: 130px;
+}
+
+.place1{
+    position: relative;
+    top: 500px;
+    max-width: 65%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    height: 330px;
+    margin-bottom: 40px;
+    margin-left: 45px;
+    border-width: 1px;
+}
+.place1 img{
+    border-radius: 25px;
+    position: relative;
+    padding: 15px;
+}
+
+.place1 #incontent1{
+    color: #cb997e;
+    font-family: poppins;
+    position: absolute;
+    top: 75px;
+    left: 315px;
+    font-size: 18px;
+    width: 420px;
+}
+
+.place1 #linkcontent1 a{
+    color: #a8d8c0;
+    font-family: poppins;
+    position: absolute;
+    top: 240px;
+    left: 285px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.place1 #linkcontent1 a:hover{
+    text-decoration: underline;
+}
+
+.place1:hover{
+    background-color: rgb(48, 45, 45);
+    transition: 1s;
+}
+
+.place2{
+    position: relative;
+    top: 490px;
+    left: 45px;
+    max-width: 65%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    height: 330px;
+    margin-bottom: 40px;
+    border-width: 1px;
+    float: right;
+    margin-right: 100px;
+}
+
+.place2 img{
+    border-radius: 25px;
+    position: relative;
+    padding: 15px;
+    float: right;
+}
+
+.place2 #incontent2{
+    color: #cb997e;
+    font-family: poppins;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.place2 #linkcontent2 a{
+    color: #a8d8c0;
+    font-family: poppins;
+    position: absolute;
+    top: 260px;
+    left: 45px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.place2 #linkcontent2 a:hover{
+    text-decoration: underline;
+}
+.place2:hover{
+    background-color: rgb(48, 45, 45);
+    transition: 1s;
 }
