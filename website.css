@@ -44,7 +44,7 @@ nav .header ul li a{
     padding: 14px 20px;
     color: white;
     font-family: poppins;
-    font-size: 17px;
+    font-size: 19px;
     
 }
 
@@ -102,6 +102,8 @@ h1{
     font-size: 43px;
     font-family: Poppins;
     margin-bottom: 10px;
+    
+    margin: 0 auto;
     position: relative;
     z-index: 10;
 }
@@ -110,6 +112,7 @@ h1{
     position: absolute;
     margin-left: 420px;
     margin-top: 200px;
+    max-width: 50%;
     align-items: center;
     text-align: center;
 }
@@ -117,6 +120,7 @@ h1{
 #SecondMainLine{
     color:#f5e4c3;
     font-family: poppins;
+    margin: 0 auto;
     font-size: 28px;
 }
 
@@ -156,7 +160,7 @@ h1{
     position: absolute;
     top: 75px;
     left: 315px;
-    font-size: 18px;
+    font-size: 20px;
     width: 420px;
 }
 
@@ -166,7 +170,7 @@ h1{
     position: absolute;
     top: 240px;
     left: 260px;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 .place1 #linkcontent1 a:hover{
@@ -205,6 +209,7 @@ h1{
     color: #f5e4c3;
     font-family: poppins;
     margin-top: 100px;
+    font-size: 20px;
     margin-left: 30px;
 }
 
@@ -214,7 +219,7 @@ h1{
     position: absolute;
     top: 260px;
     left: 45px;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
 }
 .place2 #linkcontent2 a:hover{
@@ -250,7 +255,7 @@ h1{
     position: absolute;
     top: 75px;
     left: 315px;
-    font-size: 18px;
+    font-size: 20px;
     width: 420px;
 }
 
@@ -260,7 +265,7 @@ h1{
     position: absolute;
     top: 240px;
     left: 265px;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
 }
 .place3 #linkcontent3 a:hover{
@@ -309,7 +314,7 @@ h1{
     position: absolute;
     top: 260px;
     left: 45px;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 .place4 #linkcontent4 a:hover{
@@ -346,7 +351,7 @@ h1{
     position: absolute;
     top: 75px;
     left: 315px;
-    font-size: 18px;
+    font-size: 20px;
     width: 420px;
 }
 
@@ -356,7 +361,7 @@ h1{
     position: absolute;
     top: 240px;
     left: 265px;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 .place5 #linkcontent5 a:hover{
@@ -385,6 +390,7 @@ h1{
     height: 75px;
     margin: auto;
     perspective: 1000px; 
+    margin-bottom: 60px;
     border-radius: 8px; 
 }
     
@@ -410,7 +416,7 @@ h1{
     align-items: center;
     font-family: poppins;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px;
     border-radius: 8px; 
     background-color: #213f52;
@@ -429,7 +435,7 @@ h1{
     align-items: center;
     font-family: poppins;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
     border-radius: 8px; 
     background-color: #3f4853; 
