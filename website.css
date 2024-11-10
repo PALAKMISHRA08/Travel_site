@@ -8,12 +8,13 @@ body{
        background-repeat: no-repeat;
        background-size: cover;
        background-attachment: fixed;
+       height: 100%;
 }
 
 .main{
     background-image: url("images/img5.jpeg");
     background-size: cover;
-    height: 480px;
+    height: 478px;
     width:100%;
     position: relative;
     top: 0;
@@ -102,8 +103,8 @@ h1{
     font-size: 43px;
     font-family: Poppins;
     margin-bottom: 10px;
-    
     margin: 0 auto;
+    display: flex;
     position: relative;
     z-index: 10;
 }
@@ -121,6 +122,7 @@ h1{
     color:#f5e4c3;
     font-family: poppins;
     margin: 0 auto;
+    text-align: center;
     font-size: 28px;
 }
 
@@ -138,6 +140,7 @@ h1{
 .place1{
     position: relative;
     top: 450px;
+    background-color: #19213f;
     max-width: 60%;
     border-radius: 20px;
     border-style: solid;
@@ -160,8 +163,9 @@ h1{
     position: absolute;
     top: 75px;
     left: 315px;
-    font-size: 20px;
-    width: 420px;
+    font-size: 18px;
+    max-width: 420px;
+    display: flow-root;
 }
 
 .place1 #linkcontent1 a{
@@ -170,7 +174,7 @@ h1{
     position: absolute;
     top: 240px;
     left: 260px;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
 }
 .place1 #linkcontent1 a:hover{
@@ -187,6 +191,7 @@ h1{
     left: 45px;
     max-width: 60%;
     border-radius: 20px;
+    background-color: #19213f;
     border-style: solid;
     border-color: white;
     height: 330px;
@@ -209,7 +214,7 @@ h1{
     color: #f5e4c3;
     font-family: poppins;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 30px;
 }
 
@@ -218,10 +223,13 @@ h1{
     font-family: poppins;
     position: absolute;
     top: 260px;
-    left: 45px;
+    left: 35px;
     font-size: 15px;
+    max-width: 550px;
+    display: flow-root;
     text-decoration: none;
 }
+
 .place2 #linkcontent2 a:hover{
     text-decoration: underline;
 }
@@ -237,6 +245,7 @@ h1{
     border-radius: 20px;
     border-style: solid;
     border-color: white;
+    background-color: #19213f;
     height: 330px;
     margin-bottom: 40px;
     margin-left: 45px;
@@ -254,9 +263,10 @@ h1{
     font-family: poppins;
     position: absolute;
     top: 75px;
-    left: 315px;
-    font-size: 20px;
-    width: 420px;
+    left: 305px;
+    font-size: 18px;
+    max-width: 420px;
+    display: flow-root;
 }
 
 .place3 #linkcontent3 a{
@@ -264,8 +274,8 @@ h1{
     font-family: poppins;
     position: absolute;
     top: 240px;
-    left: 265px;
-    font-size: 16px;
+    left: 245px;
+    font-size: 15px;
     text-decoration: none;
 }
 .place3 #linkcontent3 a:hover{
@@ -287,6 +297,7 @@ h1{
     border-color: white;
     height: 330px;
     margin-bottom: 40px;
+    background-color: #19213f;
     border-width: 1px;
     float: right;
     margin-right: 100px;
@@ -305,6 +316,7 @@ h1{
     color: #f5e4c3;
     font-family: poppins;
     margin-top: 100px;
+    font-size: 18px;
     margin-left: 70px;
 }
 
@@ -314,7 +326,7 @@ h1{
     position: absolute;
     top: 260px;
     left: 45px;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
 }
 .place4 #linkcontent4 a:hover{
@@ -335,6 +347,7 @@ h1{
     border-color: white;
     height: 330px;
     margin-bottom: 40px;
+    background-color: #19213f;
     margin-left: 45px;
     border-width: 1px;
     transition: transform 0.3s ease;
@@ -351,8 +364,10 @@ h1{
     position: absolute;
     top: 75px;
     left: 315px;
-    font-size: 20px;
-    width: 420px;
+    font-size: 18px;
+    max-width: 420px;
+    display: flow-root;
+    
 }
 
 .place5 #linkcontent5 a{
@@ -361,7 +376,7 @@ h1{
     position: absolute;
     top: 240px;
     left: 265px;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
 }
 .place5 #linkcontent5 a:hover{
@@ -390,7 +405,7 @@ h1{
     height: 75px;
     margin: auto;
     perspective: 1000px; 
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     border-radius: 8px; 
 }
     
@@ -409,17 +424,17 @@ h1{
 .question1{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 80%;
     backface-visibility: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: poppins;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     border-radius: 8px; 
-    background-color: #213f52;
+    background: linear-gradient(to right, #293661 60%, rgb(105, 105, 105));
     border-style: solid;
     border-color: white;
     border-width: 1px;
@@ -435,7 +450,7 @@ h1{
     align-items: center;
     font-family: poppins;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px;
     border-radius: 8px; 
     background-color: #3f4853; 
@@ -450,3 +465,77 @@ h1{
     transform: rotateY(180deg); 
 }
     
+footer{
+    background-color: #212c53;
+    position: relative;
+    top: 1240px;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .span{
+    padding: 20px;
+    padding-top: 500px;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+footer .popularSearch{
+    background-color: #6b7888;
+    position: absolute;
+    top:40px;
+    left: 280px;
+    height: 360px;
+    width:300px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.popularSearch p{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+.popularSearch p:hover{
+    background-color: #3f4750 ;
+    border-radius: 15px;
+}
+
+footer .popularSearch2{
+    background-color: #6b7888;
+    position: absolute;
+    top:40px;
+    right: 280px;
+    height: 360px;
+    width:300px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.popularSearch2 p{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+.popularSearch2 p:hover{
+    background-color: #3f4750 ;
+    border-radius: 15px;
+}
+
+.popularSearch2 .p3Head{
+    background-color:  #3f4750;
+    border-radius: 15px;
+}
+
+.popularSearch .p3Head{
+    background-color:  #3f4750;
+    border-radius: 15px;
+}
