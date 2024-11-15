@@ -1,3 +1,15 @@
+document.getElementById("contactUs").addEventListener("click", function(event) {
+    event.preventDefault();  
+    window.location.href = 'contact.html';  
+});
+
+
+document.getElementById("TermsCondi").addEventListener("click", function(event) {
+    event.preventDefault();  
+    window.location.href = 'terms.html';  
+});
+
+
 document.getElementById("aboutUs").addEventListener("click", function(event)
 {
     event.preventDefault();
