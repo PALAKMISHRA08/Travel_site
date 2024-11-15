@@ -40,7 +40,7 @@ document.getElementById("goToSikkim").addEventListener("click", function(event)
 );
 
 
-document.getElementById("goToKerala").addEventListener("click", function(event)
+document.getElementById("goToKerela").addEventListener("click", function(event)
 {
     event.preventDefault();
     window.location.href = 'kerela.html';
