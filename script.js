@@ -6,12 +6,10 @@ document.getElementById("aboutUs").addEventListener("click", function(event)
 );
 
 
-
 document.getElementById("goToRajasthan").addEventListener("click", function(event) {
     event.preventDefault();  
     window.location.href = 'rajasthan.html';  
 });
-
 
 
 document.getElementById("goToKashmir").addEventListener("click", function(event)
@@ -23,7 +21,6 @@ document.getElementById("goToKashmir").addEventListener("click", function(event)
 
 
 
-
 document.getElementById("goToSikkim").addEventListener("click", function(event)
 {
     event.preventDefault();
@@ -32,14 +29,12 @@ document.getElementById("goToSikkim").addEventListener("click", function(event)
 );
 
 
-
 document.getElementById("goToKerala").addEventListener("click", function(event)
 {
     event.preventDefault();
     window.location.href = 'kerela.html';
 }
 );
-
 
 
 document.getElementById("goToTamil").addEventListener("click", function(event)
