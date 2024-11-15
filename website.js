@@ -48,7 +48,7 @@ document.getElementById("goToKerela").addEventListener("click", function(event)
 );
 
 
-document.getElementById("goToTamil").addEventListener("click", function(event)
+document.getElementById("TamilNadu").addEventListener("click", function(event)
 {
     event.preventDefault();
     window.location.href = 'tamil_nadu.html';
